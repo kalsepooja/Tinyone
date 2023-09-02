@@ -1,0 +1,135 @@
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row,
+.row::after,
+.row::before{
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+/* css for greed system */
+
+[class ^= "col-"]{
+    float: left;
+    padding: 0 15px;
+}
+
+.col-1{
+    width: calc(100% * 1 / 12);
+}
+
+.col-2{
+    width: calc(100% * 2 / 12);
+}
+
+.col-3{
+    width: calc(100% * 3 / 12);
+}
+
+.col-4{
+    width: calc(100% * 4 / 12);
+}
+
+.col-5{
+    width: calc(100% * 5 / 12);
+}
+
+.col-6{
+    width: calc(100% * 6 / 12);
+}
+
+.col-9{
+    width: calc(100% * 9 / 12);
+}
+
+.col-10{
+    width: calc(100% * 10 / 12);
+}
+
+
+/* offset classes */
+
+.col-offset-1{
+    margin-left: calc(100% *1 / 12);
+}
+
+
+.col-offset-2{
+    margin-left: calc(100% *2 / 12);
+}
+
+/* css for margin bottom */
+
+.mb-70{
+    margin-bottom: 70px;
+}
+
+.mb-22{
+    margin-bottom: 22px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-105{
+    margin-bottom: 105px;
+}
+
+.mb-95{
+    margin-bottom: 95px;
+}
+
+/* css for margin top start here. */
+
+.mt-80{
+    margin-top: 80px;
+}
+
+
+/* css for typography. */
+
+.pri-heading{
+    font-size: 32px;
+    color: #010101;
+    font-weight: bold;
+}
+
+footer .pri-heading{
+    color: #fcdb00;
+}
+
+.sec-heading{
+    font-size: 20px;
+    color: #313841;
+    font-weight: 400px;
+}
+
+footer .sec-heading{
+    font-size: 20px;
+    font-weight: 400;
+    color: #898989;
+}
+
+.paragraph{
+    font-size: 16px;
+    color: #555555;
+    font-weight: 400px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}

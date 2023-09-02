@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* css for header section start here. */
+
+.logo{
+    display: inline-block;
+}
+
+.header{
+    background-color: #fcdb00;
+    padding: 60px 0 106px 0;
+}
+
+.navbar{
+    list-style: none;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.navbar li a:link,
+.navbar li a:visited{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 30px;
+    height: 47px;
+    display: inline-block;
+    line-height: 47px;
+}
+
+.inspiration{
+    margin-top: 75px;
+}
+
+.ipad{
+    margin-left: 30px;
+}
+
+.brandicons i{
+    font-size: 40px;
+    color: #010101;
+}
+
+.brandicons li a:link, 
+.brandicons li a:visited{
+    display: inline-block;
+}
+
+ul.brandicons {
+    list-style: none;
+}
+
+.brandicons li{
+  display: inline-block;
+  margin-right: 35px;
+}
+
+
+/* css for feature section start here. */
+
+
+.feature{
+    margin: 115px 0 160px;
+}
+
+.thumbnail i{
+    font-size: 40px;
+    margin: 0 18px;
+}
+
+.f-heading{
+    font-size: 22px;
+    color: #010101;
+}
+
+.info{
+    font-size: 16px;
+    color: #898989;
+}
+
+
+/* css for footer section start here. */
+
+
+
+.footer{
+    padding: 90px 0 135px;
+    background-color: #010101;
+}
+
+form{
+    margin: 40px 0 75px;
+}
+
+.email{
+    width: calc(100% - 150px);
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+input.email {
+    padding-left: 20px;
+}
+
+.submit{
+    width: 125px;
+    height: 50px;
+    background-color: #fcdb00;
+    border-radius: 5px;
+    border: 2px solid #fcdb00;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #010101;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer .brandicons{
+    margin-bottom: 130px;
+}
+
+footer .brandicons i{
+    color: #fcdb00;
+}
+
+.footerlinks{
+    list-style: none;
+}
+
+.footerlinks li, .footerlinks li a:link, .footerlinks li a:visited{
+    color: #fff;
+    text-decoration: none;
+}
